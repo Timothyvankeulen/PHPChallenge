@@ -21,7 +21,7 @@
     <a href="addPlaylist.php">Add a new Playlist</a><br>
     <?php
     include './Include/DBConnection.php';
-
+    //Select from database
     $sql = "SELECT * FROM playlist";
     $result = $conn->query($sql);
 
